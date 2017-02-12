@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "removeComments": true,
+        "alwaysStrict": true,
+        "forceConsistentCasingInFileNames": true, 
+        "noEmitOnError": true,    
+        "sourceMap": false,
+        "typeRoots":[
+            "node_modules/@types"
+        ]    
+    }
+}

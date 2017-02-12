@@ -1,0 +1,50 @@
+{
+  "name": "ecj-angular1-typescript-seed",
+  "version": "0.1.0",
+  "description": "Personal seed project for tinkering with Angular 1.x using TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "keywords": [
+    "angularjs",
+    "typescript",
+    "angular1.x",
+    "gulp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "localhost"
+  },
+  "author": "Elliot Justice",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "jquery": "^3.1.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.6.4",
+    "@types/jasmine": "^2.5.41",
+    "@types/jquery": "^2.0.40",
+    "@types/underscore": "^1.7.36",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-tslint": "^7.1.0",
+    "gulp-typescript": "^3.1.4",
+    "gulp-uglify": "^2.0.1",
+    "jasmine": "^2.5.3",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-spec-reporter": "0.0.26",
+    "lite-server": "^2.2.2",
+    "merge2": "^1.0.3",
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.5"
+  }
+}
