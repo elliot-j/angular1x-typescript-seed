@@ -24,10 +24,13 @@ for the AngularJS ecosystem.
 
 By default, the build will bundle the various source files and dump them in the following locations.
 
- Compiled TypeScript - /dist/app.js
- CSS - /dist/app.css
- HTML - /dist 
- Third party JS - /dist/assets.min.js
+Compiled TypeScript - `/dist/app.js`
+
+CSS - `/dist/app.css`
+ 
+HTML - `/dist` 
+ 
+Third party JS - `/dist/assets.min.js`
 
 To add or update the files in the bundled assets, see /bundle-config.js
 

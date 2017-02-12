@@ -1,23 +1,24 @@
 {
-  "name": "ecj-angular1-typescript-seed",
+  "name": "ecj-angular1x-typescript-seed",
   "version": "0.1.0",
-  "description": "Personal seed project for tinkering with Angular 1.x using TypeScript",
-  "main": "index.js",
+  "private": true,
+  "description": "A personal seed project for tinkering with Angular 1.x using TypeScript",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
   "keywords": [
     "angularjs",
     "typescript",
     "angular1.x",
-    "gulp"
+    "gulp",
+    "karma",
+    "jasmine"
   ],
   "repository": {
     "type": "git",
-    "url": "localhost"
+    "url": "https://github.com/elliot-j/angular1x-typescript-seed.git"
   },
-  "author": "Elliot Justice",
+  "author": "Elliot Justice (elliot.c.justice@gmail.com)",
   "license": "MIT",
   "dependencies": {
     "angular": "^1.5.8",
