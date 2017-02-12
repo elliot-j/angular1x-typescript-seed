@@ -1,4 +1,5 @@
 node_modules/
 dist/
 test/**/*.spec.js
-debug.log
+*debug.log
+out/
