@@ -14,12 +14,16 @@ var tsProj = ts.createProject('tsconfig.json', {outFile:config.outFiles.js}),
 
 gulp.task('build-ts', function(cb){
 	var tsResult = gulp.src(config.src.ts)
+		.pipe(srcMap.init())
 		.pipe(tsProj());
 	var specResult = gulp.src(config.src.specs)
 		.pipe(specTsProj());
 	return merge([
-		tsResult.js.pipe(gulp.dest(config.dist.main)),
-		specResult.js.pipe(gulp.dest(config.dist.test))
+		tsResult.js
+			.pipe(srcMap.write())
+			.pipe(gulp.dest(config.dist.main)),
+		specResult.js
+			.pipe(gulp.dest(config.dist.test))
 	]);
 });
 gulp.task('build-css',function(){	
